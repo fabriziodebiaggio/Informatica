@@ -8,6 +8,7 @@
 
 void unirCadenas(const char* cadena1, const char* cadena2, char* resultado) {
     strcpy(resultado, cadena1); 
+    strcat(resultado, " ");
     strcat(resultado, cadena2); 
 }
 

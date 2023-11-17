@@ -1,7 +1,7 @@
 /*
 Fabrizio, De Biaggio
-Crear una función que permita calcular la potencia enésima (exponente entero) de
-un número real (float). No utilizar la función de la librería math.
+Crear una funciï¿½n que permita calcular la potencia enï¿½sima (exponente entero) de
+un nï¿½mero real (float). No utilizar la funciï¿½n de la librerï¿½a math.
 */
 #include <stdio.h>
 double potencia_n(float numero, int potencia){
@@ -9,7 +9,7 @@ double potencia_n(float numero, int potencia){
 	
 	if(potencia > 0){
 		for(int i = 1; i <= potencia; i++){
-			resultado_p = numero * numero;
+			resultado_p = resultado_p + numero * numero;
 		}
 	}
 	

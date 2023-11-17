@@ -7,6 +7,8 @@ double valor_requiv(float R1, float R2, float R3){
 	float res_equivalente = 1 / denominador;
 	
 	printf("\nEl valor de la resistencia equivalente es de: %.2f", res_equivalente);
+
+	return 0;
 }
 	
 	int main(){
